@@ -1,18 +1,11 @@
 language: go
-
 go:
-# - 1.x
-# - 1.6
-# - 1.7
 - 1.8
-# - master
 script:
-  - go build -o liveness main.go
-
+- go build -o liveness main.go
 deploy:
-  provider: "bintray"
-  file: "bintray.json"
-  user: "serverhorror"
+  provider: bintray
+  file: bintray.json
+  user: serverhorror
   key:
-    secure: "eqjm3PT3T1846U4lBvQKf8hQwwbOWcf57sR7xEH/7MGSHw7QUwzIrGsJkr688xIjXh4J7WHziNSaq+UALwOqsWO880/J5m+ZPI7cIvYUdmQDy6+n+nv1eVn2oZyJpmeTjsDF/LKpdbMOK+85r1udTSmLf8mUuaKgVKHeFfnygrO6MsP6+YOwNocczUlD4OeOjKpd22Aj5M9gCf5Bu0/lLelSPM+dqLhEPq/jWRfJ0socydxrRncfnjHsHrLLcv1AbV33oDH8G+FGie9FNuXEFZR05CVI/6lcybm9Zef25SWEhmkcKOx+gEeGzs+qX9fw1DIJpokyrdRLcJf8yyIgHjHtUHpTqW7gQn238CmG+l2PAebuod86RPCL8Gx2glVimKVLXF82k4yJIYCMgP6KVM73ICOl+axp6QlmvwbZcdA/4ElVRMcG80Yg7sC+XvCJJcrkzumiwcxg/0MuUlL/kqvscd77iwJd3HOrWE30Eze0pmKaKGu8gzOKttjamU8qGp6fu7o7d3X0Xb6jiYKKT0jcwGsOM
-    +9dJATyKmuPka8b0zza3Izk77AfCsNNFAbpJ/X0YW6gV3Qp0BoClF9EuXktNHrRg0IwaVqiXLCWvhnHn7yfDaoHtSpdDVuqjM5B8DrRi+mamv+Xh/FZIthpTSLN70/E1Xw35HdlYaWF3lo="
+    secure: 68W5hrXq6MOkrfovFxb76HEFM9KwhQybRYtpdc4OgkypXh2DfqmOpTK+KzpgFYIaPqzWb+anbZDo9tzZU93ZOnS/brUdPfOE50GnaGsrGJHyBWnxbO9NJa6jqekyYoFClUg4WxfZyUPrrZ4d8LLGDBsbMC5pMQFKuA4t7p0WA1/P+2AGNNgc+GsAfMN5/GCPlMFePa6J2cjxVEcSsJ27ufVFYtrArWmPTyDxnO22yyzZLoaXo30Q5bH4rNezF9bhgKS4P6L7zoZvMhWyJtbM6RlQ59ioWGOIORzda4GIySe5Jlc5A+RyAsIulMZ9P9/PABWn2nMCR59RSIsvZC5hC073WR4VJrI01ldGFdu+qKpPM68FjA00KHWdFDrpl15r0YgIWxsQNyJVUuHn9BXPQkZdQ4dZA4oOTQ/xE8J2Ta4ViksBL+SNhuffpNpvAaMejBlGGlyp2YjDAMll0ulb/GkusI6CYaY2+YIB0NZ9QDgrfASnsKiznJ1d+7QiGNqml1nDG96aY0Vbb80YfHa6FzKyanr76gu8XOhTsH94P5eiLEjfb/shOvk1+FseGaKKjCvgCPb1OzawL9KOJC0rDYXrqCaNUtXxli3hJW/rTQH4Gg4a78qJ4AjdfQnFipxSM2F8yJEPxO6o1rw2Brwa3LXAS6s5IxjLjMCZm2NNgJI=
