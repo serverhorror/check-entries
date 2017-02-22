@@ -1,11 +1,11 @@
 language: go
 
 go:
-- 1.x
-- 1.6
-- 1.7
+# - 1.x
+# - 1.6
+# - 1.7
 - 1.8
-- master
+# - master
 script:
   - go build -o liveness main.go
 
