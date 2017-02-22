@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/serverhorror/vispr-liveness/liveness/cmd"
+import "github.com/serverhorror/liveness/cmd"
 
 func main() {
 	cmd.Execute()
