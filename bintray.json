@@ -36,7 +36,7 @@
         [
         // {"includePattern": "build/bin(.*)*/(.*\\.gem)", "excludePattern": ".*/do-not-deploy/.*", "uploadPattern": "gems/$2"},
         // {"includePattern": "livenesss", "uploadPattern": "docs/$1"}
-        {"includePattern": "liveness"}
+        {"includePattern": "liveness", "uploadPattern": "go/$1"}
         ],
     "publish": true
 }
