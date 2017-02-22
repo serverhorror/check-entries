@@ -10,9 +10,9 @@ script:
   - go build -o liveness main.go
 
 deploy:
-  provider: bintray
-  file: liveness
-  user: serverhorror
+  provider: "bintray"
+  file: "liveness"
+  user: "serverhorror"
   key:
-    secure: eqjm3PT3T1846U4lBvQKf8hQwwbOWcf57sR7xEH/7MGSHw7QUwzIrGsJkr688xIjXh4J7WHziNSaq+UALwOqsWO880/J5m+ZPI7cIvYUdmQDy6+n+nv1eVn2oZyJpmeTjsDF/LKpdbMOK+85r1udTSmLf8mUuaKgVKHeFfnygrO6MsP6+YOwNocczUlD4OeOjKpd22Aj5M9gCf5Bu0/lLelSPM+dqLhEPq/jWRfJ0socydxrRncfnjHsHrLLcv1AbV33oDH8G+FGie9FNuXEFZR05CVI/6lcybm9Zef25SWEhmkcKOx+gEeGzs+qX9fw1DIJpokyrdRLcJf8yyIgHjHtUHpTqW7gQn238CmG+l2PAebuod86RPCL8Gx2glVimKVLXF82k4yJIYCMgP6KVM73ICOl+axp6QlmvwbZcdA/4ElVRMcG80Yg7sC+XvCJJcrkzumiwcxg/0MuUlL/kqvscd77iwJd3HOrWE30Eze0pmKaKGu8gzOKttjamU8qGp6fu7o7d3X0Xb6jiYKKT0jcwGsOM
-    +9dJATyKmuPka8b0zza3Izk77AfCsNNFAbpJ/X0YW6gV3Qp0BoClF9EuXktNHrRg0IwaVqiXLCWvhnHn7yfDaoHtSpdDVuqjM5B8DrRi+mamv+Xh/FZIthpTSLN70/E1Xw35HdlYaWF3lo=
+    secure: "eqjm3PT3T1846U4lBvQKf8hQwwbOWcf57sR7xEH/7MGSHw7QUwzIrGsJkr688xIjXh4J7WHziNSaq+UALwOqsWO880/J5m+ZPI7cIvYUdmQDy6+n+nv1eVn2oZyJpmeTjsDF/LKpdbMOK+85r1udTSmLf8mUuaKgVKHeFfnygrO6MsP6+YOwNocczUlD4OeOjKpd22Aj5M9gCf5Bu0/lLelSPM+dqLhEPq/jWRfJ0socydxrRncfnjHsHrLLcv1AbV33oDH8G+FGie9FNuXEFZR05CVI/6lcybm9Zef25SWEhmkcKOx+gEeGzs+qX9fw1DIJpokyrdRLcJf8yyIgHjHtUHpTqW7gQn238CmG+l2PAebuod86RPCL8Gx2glVimKVLXF82k4yJIYCMgP6KVM73ICOl+axp6QlmvwbZcdA/4ElVRMcG80Yg7sC+XvCJJcrkzumiwcxg/0MuUlL/kqvscd77iwJd3HOrWE30Eze0pmKaKGu8gzOKttjamU8qGp6fu7o7d3X0Xb6jiYKKT0jcwGsOM
+    +9dJATyKmuPka8b0zza3Izk77AfCsNNFAbpJ/X0YW6gV3Qp0BoClF9EuXktNHrRg0IwaVqiXLCWvhnHn7yfDaoHtSpdDVuqjM5B8DrRi+mamv+Xh/FZIthpTSLN70/E1Xw35HdlYaWF3lo="

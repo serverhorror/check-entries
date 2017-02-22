@@ -17,6 +17,9 @@
         //                {"name": "att2", "values" : [1, 2.2, 4], "type": "number"},
         //                {"name": "att5", "values" : ["2014-12-28T19:43:37+0100"], "type": "date"}]
     },
+    "version": {
+        "name": "0.1"
+    },
 
     // "version": {
     //     "name": "0.5",
